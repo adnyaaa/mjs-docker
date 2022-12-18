@@ -1,0 +1,260 @@
+  
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: rgba(179, 240, 187, 0.306);
+        font-family: sans-serif;
+    }
+    .identitas {
+        overflow: hidden;
+        width: 700px;
+        max-width: 100%;
+        margin: 30px;
+        padding: 10px;
+        background-color: #fff;
+        font-family: sans-serif;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      
+        
+    }
+    .menu{
+        overflow: hidden;
+        max-width: 100%;
+        margin: 10px;
+        padding: 10px;
+        align-self: center;
+        background-color: rgb(181, 207, 175);
+        font-family: sans-serif;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+      
+        
+    }
+    .menu a{
+        color: #ffff;
+        font-family: sans-serif;
+    }
+    .bingkaimenu{
+        text-align: center;
+        
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #000000;
+      }
+      
+    .topnav a {
+    float: left;
+    color: #d6c8c8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    
+    .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    
+    .topnav a.active {
+    background-color: rgba(62, 195, 80, 0.507);
+    color: white;
+    }
+      
+    .container {
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        width: 520px;
+        max-width: 100%;
+        margin: 30px;
+        padding: 100px;
+    }
+    .containerdata {
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        width: 800px;
+        max-width: 100%;
+        margin: 30px;
+        padding: 100px;
+    }
+    #data {
+        font-family:sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #data td, #data th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: justify;
+      }
+      #data a{
+        color: #000000;
+        background-color: rgba(179, 240, 187, 0.306);
+
+      }
+      
+      #data tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #data tr:hover {background-color: #ddd;}
+      
+      #data th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: justify;
+        background-color: rgba(179, 240, 187, 0.306);
+        color: rgb(0, 0, 0);
+      }  
+
+    .test{
+        border: 1px solid #031707;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        color: #cce2b1;
+    }
+    .header {
+        border-bottom: 1px solid  rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        padding: 20px 40px;
+    }
+    .bingkaijudul {
+        border: 1px solid #cdc1c1;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        
+    }
+    .bingkai{
+        border: 1px solid #cdc1c1;
+        border-radius: 5px;
+        
+    }
+    .judul {
+        margin: 10px;
+        font-size: 30px;
+        font-family: sans-serif;
+        text-align: center;
+        padding:20;
+
+    }
+    .teks {
+        margin: 10px;
+        font-size: 15px;
+        font-family: sans-serif;
+        text-align: center;
+        padding:20;
+
+    }
+
+    .error{
+        border: 2px solid #cdc1c1;
+        background-color: #c74d4d;
+        border-radius: 6px;
+        display: block;
+        font-family: inherit;
+        font-size: 14px;
+        padding: 10px;
+        width: 420px;
+    }
+    .form {
+        border: #777;
+        border-radius: 5px;
+        padding: 30px 40px;	
+    }
+
+    .bagian-form {
+        
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    .bagian-form label {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .bagian-form input {
+        border: 2px solid #cdc1c1;
+        border-radius: 6px;
+        display: block;
+        font-family: inherit;
+        font-size: 14px;
+        padding: 10px;
+        width: 420px;
+    }
+    .bagian-form .uil-user{
+        position: absolute;
+        right: 15px;
+        top: 35px;
+        color:rgba(119, 119, 119, 0.783);
+    }
+    .bagian-form .uil-home{
+        position: absolute;
+        right: 15px;
+        top: 35px;
+        color:rgba(119, 119, 119, 0.783);
+    }
+    .bagian-form .uil-phone{
+        position: absolute;
+        right: 15px;
+        top: 35px;
+        color:rgba(119, 119, 119, 0.783);
+    }
+    .bagian-form .uil-envelope{
+        position: absolute;
+        right: 15px;
+        top: 35px;
+        color:rgba(119, 119, 119, 0.783);
+    }
+    .bagian-form .uil-keyhole-circle{
+        position: absolute;
+        right: 15px;
+        top: 35px;
+        color:rgba(119, 119, 119, 0.783);
+    }
+    .bagian-form .uil-list-ol{
+        position: absolute;
+        right: 15px;
+        top: 35px;
+        color:rgba(119, 119, 119, 0.783);
+    }
+    
+    .form button {
+        align-self:flex-end;
+        background-color: rgb(179, 240, 187);
+        border: 2px solid #cce2b1;
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        display: block;
+        font-family: inherit;
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 20px;
+        width: 445px;
+        
+    }
+
+#tabel {
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+#tabel td {
+    border: 2px solid #ddd;
+    padding: 8px;
+  }
+  
+#tabel tr:nth-child(even){background-color: #95b3d6b8;}
+  
+#tabel tr:hover {background-color: rgb(72, 98, 180);}
